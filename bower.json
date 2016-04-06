@@ -1,0 +1,49 @@
+{
+  "name": "Platform agnosity Builder",
+  "version": "0.1",
+  "homepage": "http://www.surgemedia.com.au/",
+  "authors": [
+    "Alex <alexanderddking@gmail.com>"
+  ],
+  "license": "all rights reserved",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "modernizr": "*",
+    "jquery": "~2.1.4",
+    "jqueryui": "*",
+    "bootstrap-sass": "*",
+    "bootstrap-sass-datepicker": "*",
+    "chosen": "*"
+  },
+  "overrides": {
+    "jquery": {
+      "main": "./dist/jquery.js"
+    },
+    "jqueryui": {
+      "main": "./jquery-ui.js"
+    },
+    "modernizr": {
+      "main": "./modernizr.js"
+    },
+    "bootstrap-sass-datepicker": {
+      "main": [
+        "./js/bootstrap-sass-datepicker.js"
+      ]
+    },
+    "chosen": {
+      "main": [
+        "./chosen.jquery.min.js"
+      ]
+    },
+    "bootstrap-sass": {
+      "main": []
+    }
+  },
+  "private": true
+}

@@ -1,0 +1,52 @@
+.panel {
+	//background:$blue-light;
+	background:$grey;
+	border:0px;
+	color:#fff;  
+    overflow: hidden;
+ 	border-bottom-left-radius:110px;
+   
+	.list-group {
+		margin-top: 0px;
+		 border-bottom-left-radius:152px;
+		 overflow: hidden;
+		 z-index: 2;
+		    position: relative;
+		    background:$blue-light;
+    	//position: relative;
+	}
+
+
+  
+	.panel-heading {
+		background:$blue-light;
+		border:0px;
+		color:#fff; 
+		text-align: center;
+		padding:0.5em 0 2em 0;
+	}
+	ul {
+		width:100%;
+	}
+	.list-group-item {
+		background:transparent;
+		border-right:0px;
+		border-left:0px;
+		padding:10px 15px 10px 0px;
+		//border-top:1px solid $blue;
+		border-bottom:1px solid #fff;
+
+		
+		a {
+			    width: 100%;
+   			 	display: block;
+				color:#fff; 
+			  	font-size: 0.8em;
+			    text-align: right;
+			    font-weight: bold;
+		}
+
+	}
+
+
+}

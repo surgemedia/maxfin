@@ -1,0 +1,29 @@
+// ul,li {
+// 	list-style:none;
+// 	margin: 0;
+// 	padding: 0;
+// 	display:inline-block;
+// }
+
+.text-bump {
+	margin-top:1.5em;
+	margin-bottom:1.5em;
+}
+
+.grey-bg {
+	background-color:$light-grey;
+}
+p {
+	font-family: Tahoma;
+    font-size: 14px;
+    line-height: 16px;
+    color: $grey-dark;
+}
+.content {
+	padding-top:2em;
+	padding-bottom:2em;
+	li {font-family: Tahoma; color: $grey-dark;
+	font-size: 14px;
+    line-height: 16px;
+	}
+}

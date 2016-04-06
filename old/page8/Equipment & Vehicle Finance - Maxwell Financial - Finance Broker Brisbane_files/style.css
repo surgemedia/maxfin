@@ -1,0 +1,136 @@
+body{
+padding:0px;
+margin:0px;
+}
+a:hover{text-decoration:none;}
+.m_text
+	{
+		font-family:Tahoma;
+		font-size:11px;
+		line-height:12px;
+		color:#454545;
+	}
+
+.m1_text
+	{
+		font-family:Tahoma;
+		font-size:12px;
+		line-height:13px;
+		color:#454545;
+	}
+	
+.m1_text2
+	{
+		font-family:Tahoma;
+		font-size:13px;
+		line-height:13px;
+		color:#454545;
+	}
+
+.h_text
+	{
+		font-family:Tahoma;
+		font-size:13px;
+		line-height:13px;
+		color:#4785A3;
+	}
+	
+.h_text2
+	{
+		font-family:Tahoma;
+		font-size:13px;
+		line-height:13px;
+		color:#666666;
+		font-weight: bold;
+	}
+	
+.h_heading
+	{
+		font-family:Tahoma;
+		font-size:17px;
+		line-height:normal;
+		color:#4785A3;
+		font-weight: bold;
+	}
+
+.h_heading2
+	{
+		font-family:Tahoma;
+		font-size:17px;
+		line-height:normal;
+		color:#01678F;
+		
+	}
+.l_text
+	{
+		font-family:Tahoma;
+		font-size:11px;
+		line-height:11px;
+		color:#4785A3;
+	}
+	
+.l_text2
+	{
+		font-family:Tahoma;
+		font-size:11px;
+		line-height:11px;
+		color:#01678F;
+	}
+
+.l1_text
+	{
+		font-family:Tahoma;
+		font-size:11px;
+		line-height:11px;
+		color:#ffffff;
+	}	
+	
+.l1_text b {
+	color : #666666;
+	text-decoration: none;
+}
+.l1_text a {
+	color : #666666;
+	text-decoration: none;
+}
+.l1_text a:hover {
+	color : #006790;
+	text-decoration: none;
+}
+
+.l1_text2
+	{
+		font-family:Tahoma;
+		font-size:11px;
+		line-height:11px;
+		color:#93A81C;
+	}
+
+.c_text
+	{
+		font-family:Tahoma;
+		font-size:11px;
+		line-height:11px;
+		color:#FFFFFF;
+	}
+
+.form
+	{
+		width:196px; height:18px; border-color:#878787; border-width:1px; background-color:#ffffff; border-style:solid; padding-left:5px
+	}
+	
+.form1
+	{
+		width:136px; height:18px; border-color:#878787; border-width:1px; background-color:#ffffff; border-style:solid; padding-left:5px
+	}
+	
+.form_div
+	{
+		height:21px; margin-top:-1px;		
+	}
+		
+	a.c_text{text-decoration:none;}	
+	a.c_text:hover{text-decoration:underline;}
+
+ul {background:url(images/a.gif) no-repeat left center; margin: 10px 0px 0px 0px; padding:0px 0px 0px 0px; list-style:none;}
+li {background:url(images/a.gif) no-repeat left center; margin: 0px 0px 0px 0px; padding:0px 0px 0px 0px;}

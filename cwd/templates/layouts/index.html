@@ -1,0 +1,41 @@
+<include src="layout/head.html" title="Example include"></include>
+<div class="container">
+	<div id="templates-buildtool" class="col-lg-6">	
+		<h2>Rendered Templates</h2>
+	</div>
+	<pre id="error-console" class="col-lg-6">	
+		
+	</pre>
+</div>
+
+<div id="resources-buildtool" class="container">
+		<h2>Resources</h2>
+		<p>Here are some places to find snippets</p>
+		<ul>
+			<li class="col-lg-4"><a href="http://cssdeck.com"><img src="/assets/images/logo-cssdeck.jpg" alt="Cssdeck"></a></li>
+			<li class="col-lg-4"><a href="http://codepen.io"><img src="/assets/images/logo-codepen.jpg" alt="Codepen"></a></li>
+			<li class="col-lg-4"><a href="http://bootsnipp.com/"><img src="/assets/images/logo-bootsnip.jpg" alt="bootsnip"></a></li>
+		</ul>
+	</div>	 
+<script>
+		$.getJSON('/template-list.json', function(json) {
+			console.log(json);
+			for (var i = json.length - 1; i >= 0; i--) {
+				console.log(json[i]['path'])
+				console.log(json[i]['path'].split('/'));
+				var html = "<li><a href='"+json[i]['path'].replace('render/',"")+"'>"+json[i]['path']+"</a></li>";
+				$('#templates-buildtool').append('<ul>');
+				$('#templates-buildtool').append(html)
+				$('#templates-buildtool').append('</ul>');
+
+			};
+		
+				/*optional stuff to do after success */
+		});
+			
+		</script>
+
+	
+
+
+<include src="layout/foot.html" ></include>
