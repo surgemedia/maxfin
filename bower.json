@@ -19,11 +19,15 @@
     "jqueryui": "*",
     "bootstrap-sass": "*",
     "bootstrap-sass-datepicker": "*",
-    "chosen": "*"
+    "chosen": "*",
+    "owl.carousel": "OwlCarousel2#^2.0.0-beta.3"
   },
   "overrides": {
     "jquery": {
       "main": "./dist/jquery.js"
+    },
+     "owl.carousel": {
+      "main": "./dist/owl.carousel.min.js"
     },
     "jqueryui": {
       "main": "./jquery-ui.js"

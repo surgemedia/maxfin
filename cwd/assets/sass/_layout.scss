@@ -143,3 +143,36 @@ a:hover{text-decoration:none;}
 ul { margin: 10px 0px 0px 0px;  list-style:dot;}
 li { margin: 0px 0px 0px 0px; }
 
+#tools {
+	width:80%;
+	margin:0 auto;
+	li {
+		padding:1em;
+		text-align: center;
+		a {
+			display:block;
+			text-align: center;
+		}
+		img {
+			clear:both; 
+			display:inline-block;
+		}
+		span {
+			margin-top: 1em;
+			clear:both;
+			width:100%;
+			display:block;
+		}
+	}
+}
+
+@media (max-width: $screen-xs-max) {
+	#tools {
+	width:100%;
+	margin:0 auto;
+	li {
+		width:100%;
+		
+	}
+}
+}

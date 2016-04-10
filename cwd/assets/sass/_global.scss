@@ -13,6 +13,21 @@
 .grey-bg {
 	background-color:$light-grey;
 }
+h1,h2 {
+	color:$blue;
+	font-family: Tahoma;
+}
+h2 {
+	font-size:1.8em;
+}
+a {
+	font-family: Tahoma; 
+}
+#sidebar {
+	a {
+		font-family:Arial;
+	}
+}
 p {
 	font-family: Tahoma;
     font-size: 14px;
@@ -20,8 +35,7 @@ p {
     color: $grey-dark;
 }
 .content {
-	padding-top:2em;
-	padding-bottom:2em;
+	padding:3em;
 	li {font-family: Tahoma; color: $grey-dark;
 	font-size: 14px;
     line-height: 16px;
