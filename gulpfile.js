@@ -37,7 +37,7 @@ var sass_files = [
     'cwd/assets/sass/all.scss'
     ];
 //This is used for HTML Lint
-var html_files = ['render/templates/**/*.html'];
+var html_files = ['render/*.html'];
 
 //This is used to Move fonts into the correct folder
 var fonts = ['bower_components/bootstrap-sass-official/assets/fonts/**/*', 'cwd/assets/fonts/*'];
@@ -51,7 +51,7 @@ var onError = function(err) {
 ======================================*/
 
 gulp.task('include', function() {
-    gulp.src(['cwd/templates/**/*.html']).pipe(plumber()).pipe(includehtml({basePath: 'cwd/includes'})).pipe(gulp.dest('./render/templates/')).pipe(reload({
+    gulp.src(['cwd/templates/**/*.html']).pipe(plumber()).pipe(includehtml({basePath: 'cwd/includes'})).pipe(gulp.dest('./render/')).pipe(reload({
         stream: true
     }));
    
@@ -63,7 +63,7 @@ gulp.task('include', function() {
 =============================================*/
 gulp.task('create-index', function() {
 return gulp
- .src('render/templates/**/*.html')
+ .src('render/*.html')
  .pipe(fileList('', 'render/template-list.json'))
 });
 
